@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+hhvm --mode server -d hhvm.server.type=fastcgi -d hhvm.server.port=9000 -c /etc/hhvm/server.ini
